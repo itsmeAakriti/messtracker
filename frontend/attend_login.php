@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="icon">
-		<h2 class="logo"><img src ="../img/MESS__1_-removebg-preview.png" alt="logo";></h2>
+		<h2 class="logo"><img src ="../img/logo2.png" alt="logo";></h2>
 	</div>
 	<div class="navbar">
 		<a href="index%20(1).html">Home</a>
