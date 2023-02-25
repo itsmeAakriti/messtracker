@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles (1).css">
+</head>
+<body>
+    <div class="contain">
+        
+    <div class="icon">
+        <h2 class="logo"><img src ="../img/MESS__1_-removebg-preview.png" alt="logo";></h2>
+    </div>
+    <div class="navbar">
+        <a href="index (1).html">Home</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Login
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="student_login.php">Student</a>
+          <a href="attend_login.php">Mess Attendant</a>
+        </div>
+        </div> 
+      </div>
+    <div class="main">
+        <div class="content">
+            <h1>Mess Tracker</h1>
+            <h3>An ultimate solution to your mess problems<br><br></h3>
+            <p>The mess management system is proposed and developed for automating the actiities of mess which includes budget calculation, mess attendance and tally of extra charges on delicacies that are procured from the mess.
+                <br><br>This website will be a great relief to staff as well as students. It will take the operations of mess to an upper level by providing faster assess to data and allowing addition, modification and deletion of data in a very systematic and reliable manner.<br><br>
+            </p>
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+        </script>
+
+</body>
+</html>
